@@ -50,7 +50,12 @@
 }
 
 
-
+@media (max-width: 767px) {
+  .bg-cover {
+    background-size: cover !important; /* Ensure images cover the entire viewport */
+    background-position: center center !important; /* Center the background images */
+  }
+}
 /*
   Section - Home
   --------------
